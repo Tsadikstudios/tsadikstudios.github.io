@@ -1,0 +1,30 @@
+<style>
+/* Impede a seleção e o toque longo em dispositivos móveis */
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Bloqueia o clique direito nas imagens
+    document.addEventListener('contextmenu', function(e) {
+        if (e.target.tagName === 'IMG') {
+            e.preventDefault();
+        }
+    });
+
+    // Bloqueia o ato de "arrastar" a imagem para a área de trabalho do PC
+    document.addEventListener('dragstart', function(e) {
+        if (e.target.tagName === 'IMG') {
+            e.preventDefault();
+        }
+    });
+});
+</script>
