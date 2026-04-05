@@ -1,3 +1,16 @@
+baseURL = 'https://tsadikstudios.github.io/'
+languageCode = 'en-us'
+title = 'Tsadik Studios'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  description = 'The intersection of rigorous manual labor, creative technology, and theological depth.'
+  author = 'Tsadik Studios'
+  defaultTheme = 'dark'
+  ShowReadingTime = true
+  ShowShareButtons = false
+
 [menu]
   [[menu.main]]
     identifier = "art-shop"
