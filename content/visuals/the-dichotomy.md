@@ -3,7 +3,7 @@ title: "The Dichotomy of the Heart"
 date: 2026-04-04
 draft: false
 cover:
-  image: "/img/dichotomy.jpg"
+  image: "/img/dichotomy2.jpg"
   alt: "A man walking on a bridge towards a warm light, leaving dark clouds behind."
 ---
 
