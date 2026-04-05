@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Audios on Tsadik Studios</title>
+    <link>http://localhost:1313/audio/</link>
+    <description>Recent content in Audios on Tsadik Studios</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Faithful in Exile (Single)</title>
+      <link>http://localhost:1313/audio/faithful-in-exile/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/audio/faithful-in-exile/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Artist:&lt;/strong&gt; Yoceph Belisarius&lt;/p&gt;
+&lt;p&gt;An acoustic exploration of exile, faith, and the resistance of the human spirit. Forged with folk steel-string arrangements, this track rejects superficial acoustics in favor of raw, unpolished truth.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
