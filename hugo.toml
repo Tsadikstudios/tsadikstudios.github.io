@@ -1,21 +1,8 @@
-baseURL = 'https://tsadikstudios.github.io/'
-languageCode = 'en-us'
-title = 'Tsadik Studios'
-theme = 'PaperMod'
-
-[params]
-  env = 'production'
-  description = 'The intersection of rigorous manual labor, creative technology, and analytical depth.'
-  author = 'Tsadik Studios'
-  defaultTheme = 'auto'
-  ShowReadingTime = true
-  ShowShareButtons = false
-
 [menu]
   [[menu.main]]
-    identifier = "visuals"
-    name = "Visuals"
-    url = "/visuals/"
+    identifier = "art-shop"
+    name = "Art Shop"
+    url = "/art-shop/"
     weight = 10
   [[menu.main]]
     identifier = "audio"
