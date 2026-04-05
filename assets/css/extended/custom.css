@@ -1,0 +1,19 @@
+/* 1. Transforma a capa em um quadro de galeria */
+.entry-cover {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.entry-cover img {
+    max-height: 60vh !important; /* Limita a altura a 60% da tela */
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6); /* Sombra de profundidade */
+    
+    /* Escudo Físico no CSS: Impede que o mouse "toque" na imagem */
+    pointer-events: none !important; 
+    user-select: none !important;
+    -webkit-user-drag: none !important;
+}
