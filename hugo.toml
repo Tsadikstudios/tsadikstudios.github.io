@@ -1,11 +1,11 @@
 baseURL = 'https://tsadikstudios.github.io/'
-languageCode = 'pt-br'
+languageCode = 'en-us'
 title = 'Tsadik Studios'
 theme = 'PaperMod'
 
 [params]
   env = 'production'
-  description = 'A intersecção entre o trabalho manual rigoroso, a tecnologia criativa e a profundidade analítica.'
+  description = 'The intersection of rigorous manual labor, creative technology, and analytical depth.'
   author = 'Tsadik Studios'
   defaultTheme = 'auto'
   ShowReadingTime = true
@@ -13,18 +13,17 @@ theme = 'PaperMod'
 
 [menu]
   [[menu.main]]
-    identifier = "visual"
-    name = "Visual"
-    url = "/visual/"
+    identifier = "visuals"
+    name = "Visuals"
+    url = "/visuals/"
     weight = 10
   [[menu.main]]
     identifier = "audio"
-    name = "Áudio"
+    name = "Audio"
     url = "/audio/"
     weight = 20
   [[menu.main]]
-    identifier = "literatura"
-    name = "Literatura"
-    url = "/literatura/"
+    identifier = "literature"
+    name = "Literature"
+    url = "/literature/"
     weight = 30
-	
